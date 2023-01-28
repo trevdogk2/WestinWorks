@@ -27,9 +27,21 @@
   font-weight: bold;
   border-radius: 0.5vmin;
   padding: 1vw;
+  white-space: pre;
+  background: linear-gradient(to left, transparent 50%, white 50%) right;
+  background-size: 201%;
+  transition: 0.1s ease-out;
 }
 
 .Info:hover {
-  background-color: white;
   color: #000000;
+  background-position: left;
+}
+
+.Tiles {
+  position: absolute;
+  display: grid;
+  position: absolute;
+  top: 0;
+  bottom: 0;
 }
